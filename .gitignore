@@ -8,6 +8,6 @@ __pycache__/
 coverage/
 dist/
 dist/*.tmp
+node_modules/
 receipts.json
 tax-reports/
-node_modules/
