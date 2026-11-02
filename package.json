@@ -1,0 +1,24 @@
+{
+  "name": "receipt-mcp-server",
+  "version": "1.0.0",
+  "description": "Local-first MCP server for organizing receipts: categorize, summarize, and export tax-ready reports. Stores receipts in local JSON, speaks over stdio, needs no API keys or accounts.",
+  "type": "module",
+  "main": "src/server.js",
+  "bin": {
+    "receipt-mcp-server": "src/server.js"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "vitest run"
+  },
+  "keywords": ["mcp", "receipts", "tax", "bookkeeping", "local-first"],
+  "author": "Asdale Dynamics, LLC",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.12"
+  }
+}

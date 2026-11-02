@@ -1,0 +1,13 @@
+*.log
+*.pyc
+.DS_Store
+.env
+.env.*
+.venv/
+__pycache__/
+coverage/
+dist/
+dist/*.tmp
+receipts.json
+tax-reports/
+node_modules/
